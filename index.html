@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/step2.css">
+	<link rel="stylesheet" type="text/css" href="css/step2media.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+	<link rel="stylesheet" type="text/css" href="css/game.css">
+		<link rel="stylesheet" type="text/css" href="css/gameMedia.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+	<link rel="stylesheet" type="text/css" href="css/form.css">
+</head>
+<body>
+<div class="header">
+	<div class="navBar">
+		<div class="navBarPointLogo"><p class="learn" id="learn">.learn<span class="it">it</span></p></div>
+	<ul id="nav" class="navBarPointCentre">
+		<li class="navBarPoint" id="gal">GALLERY</li>
+		<li class="navBarPoint" id="voc">VOCABULARY</li>
+		<li class="navBarPoint" id="game">GAME</li>
+		<li class="navBarPoint" id="contacts">CONTACTS</li>
+	</ul>	
+	<button class="call2Action">CONTACT US</button> </div>
+	<div class="textCentreBlockOne">Title of Your Product,<br>
+	Service or Event
+	</div>
+	<div class="textCentreBlockTwo">It's a tag line, where you can write a key point of your idea.
+	</div>
+	<div class="watchVideoDiv">
+		<button class="watchVideo">WATCH VIDEO</button>
+		<button class="call2ActionButton">CALL2ACTION BUTTON</button> 
+	</div>
+</div
+	><div class="gallery">
+		<div class="pic_container" id="pic_container">
+			<div class="myPics fade">
+				<img src="img/quote1.jpg" class="pics" onclick="next(+1)">
+			</div>	
+			<div class="myPics fade">
+				<img src="img/quote2.jpg" class="pics" onclick="next(+1)">
+			</div>	
+			<div class="myPics fade">
+				<img src="img/quote3.jpg" class="pics" onclick="next(+1)">
+			</div>	
+			<div class="myPics fade">
+				<img src="img/quote4.jpg" class="pics" onclick="next(+1)">
+			</div>	
+		</div
+		><div class="picDesc">
+			<div class="desc" >
+				<img src="img/steve.jpg" class="bio">
+				<span  class="textSecond">Steve Jobs <br>American entrepreneur, business magnate, inventor, and industrial designer,the chairman, chief executive officer (CEO), and co-founder of Apple Inc.; CEO and majority shareholder of Pixar.</span>
+			</div>
+			<div class="desc">
+				<img src="img/dean.jpg" class="bio">
+				<span  class="textSecond">James Dean <br> was an American actor. He is remembered as a cultural icon of teenage disillusionment and social estrangement, as expressed in Rebel Without a Cause (1955). </span>
+			</div>
+			<div class="desc">
+				<img src="img/mary.jpg" class="bio">
+				<span  class="textSecond">Marilyn Monroe <br> was an American actress, model and singer. Famous for playing comic "blonde bombshell" characters, she became one of the most popular sex symbols of the 1950s. </span>
+			</div>
+			<div class="desc">
+				<img src="img/einstein.jpg" class="bio">
+				<span class="textSecond">Albert Einstein <br> was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). </span>
+			</div>
+		</div>
+	</div
+	><div class="grammar" id="grammar">
+	<div class="titleVoc">VOCABULARY</div>
+	<a href="img/wordComb1_big.jpg" data-lightbox="mygallery"><div class="picZoom" style="background-image: url('img/wordComb1.jpg');"></div></a
+	><a href="img/wordComb2_big.jpg" data-lightbox="mygallery"><div class="picZoom"  style="background-image: url('img/wordComb2.jpg');"></div></a
+	><a href="img/wordComb3_big.jpg" data-lightbox="mygallery"><div class="picZoom"  style="background-image: url('img/wordComb3.jpg');"></div></a
+	><a href="img/wordComb4_big.jpg" data-lightbox="mygallery"><div class="picZoom"  style="background-image: url('img/wordComb4.jpg');"></div></a
+	><a href="img/wordComb5_big.jpg" data-lightbox="mygallery"><div class="picZoom"  style="background-image: url('img/wordComb5.jpg');"></div></a
+	><a href="img/wordComb6_big.jpg" data-lightbox="mygallery"><div class="picZoom"  style="background-image: url('img/wordComb6.jpg');"></div></a
+	><a href="img/wordComb7_big.jpg" data-lightbox="mygallery"><div class="picZoom"  style="background-image: url('img/wordComb7.jpg');"></div></a
+	><a href="img/wordComb8_big.jpg" data-lightbox="mygallery"><div class="picZoom"  style="background-image: url('img/wordComb8.jpg');"></div></a>
+	</div
+	><div class="block4" id="gameBlock">
+		<div class="wrapperGame">
+			<div class="wrapperInput">
+				<input type="word" name="word" id="word" placeholder="word">
+				<input type="translation" name="translation" id="translation" placeholder="translation">
+				<button id="btn">Done</button>
+				<button id="btnShuffle">Shuffle</button>
+			</div>
+			<div class="block" id="shuffle"></div>
+		</div>
+	</div
+	><div class="contacts" id="contactsBlock">
+		<form class="formwrap" action="script.php" method="GET">
+	<p class="field-wrapper required-field">
+	<label>
+    <input class = "required" type="text" name="name" placeholder="Имя" required></label>
+    <p class="field-wrapper required-field">
+	<label>
+    <input class = "required" type="password" name="password" placeholder="Пароль" required>
+    </label>
+    </p>
+    <input class = "form" type="radio" name="sex" value="Female">
+    <label for="radio">Female</label>
+    <input class = "form" type="radio" name="sex" value="Female">
+    <label for="radio">Male</label>
+   <select>
+  <option >Ukraine</option>
+  <option >Russia</option>
+  <option >Poland</option>
+  <option >Another</option>
+</select>
+<input class = "form" type="checkbox" class="checkbox" id="checkbox" />
+<label class = "checkbox" for="checkbox">Я хочу получать спам</label>
+  <button class="btnForm">Зарегистрироваться</button>
+</form>
+
+	</div>
+	<span href="#" class="back-to-top"></span>
+	<script src="js/step2.js"></script>
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	<script src="js/game.js"></script>
+
+</body>
+</html>

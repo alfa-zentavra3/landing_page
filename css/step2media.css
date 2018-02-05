@@ -1,0 +1,160 @@
+@media screen and (max-width: 1300px){
+	.navBarPointLogo{
+		width: 15%;
+	}
+
+	.navBarPointCentre{
+		text-align: center;
+	}
+
+
+}
+
+
+@media screen and (max-width: 1100px){
+	.pic_container{
+ 		width: auto;
+ 		position: relative;
+	 	display: block;
+	}
+
+	.pics{
+   		 height: 500px;
+    	width: 700px;
+    	padding: 15px;
+    	margin: 0 auto;
+	}
+
+	.picDesc{
+		width: 100%;
+		padding: 0;
+	}
+	.desc{
+		height: auto;
+		
+	}
+	.bio{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.textSecond{
+		display: block;
+		position: relative;
+		text-align: center;
+	}
+
+
+}
+
+@media screen and (max-width: 915px){
+	.navBarPointLogo{
+		width: 10%;
+	}
+
+	.call2Action{
+		   font-size: 12px;
+
+	}
+	.navBarPoint{
+	padding: 0;	
+	}
+
+	.navBarPointCentre{
+		text-align: center;
+	}
+	.pics{
+    	height: 400px;
+    	width: 600px;
+    	padding: 15px;
+    	margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+		#menu {
+			width:1.4em;
+			display: block;
+			background:#b72f95;
+			font-size:1.35em;
+			text-align: center;
+			margin: 0 auto;
+		}
+		#nav.js {
+			display: none;
+		}
+		ul {
+			width:100%;
+			list-style:none;
+			margin: 0 auto;
+
+		}
+		li {
+			width:100%;
+			border-right:none;
+			
+		}
+
+		.navBarPoint{
+			display: block;	
+			margin: 0 auto;
+			text-align: center;
+			background-color: transparent;
+			border-width: 1px;
+			border-style: solid;
+			border-color: white;
+		}		
+
+		.call2Action{
+			display: block;
+			margin: 0 auto;
+			margin-top: 10px; 
+		}
+
+		.textCentreBlockOne{
+    		padding-top: 50px;
+		}
+
+		.call2ActionButton{
+			margin-top: 30px;
+		}
+		.pics{
+   	 		height: 300px;
+    		width: 400px;
+    		margin: 0 auto;
+		}
+}
+
+	@media screen and (max-width: 500px){
+		.pics{
+    		height: 150px;
+    		width: 250px;
+    		margin: 0 auto;
+		}
+	}
+
+	@media screen and (min-width: 768px) {
+		#menu {
+			display: none;
+		}
+
+	}
+
+	@media (min-width:701px) and (max-width:1000px){
+		.picZoom {
+			width: 33%;
+		}
+	}
+
+	@media (min-width:500px) and (max-width:700px){
+		.picZoom{
+			width: 50%;
+		}
+	}
+
+	@media (max-width:499px){
+		.picZoom {
+			width: 100%;
+		}
+	}
