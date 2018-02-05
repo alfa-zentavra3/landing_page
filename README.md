@@ -31,6 +31,6 @@ By clicking on the right word and it's translation the cards change background i
 The game is over when all words have green background colour.
 Note: the game starts only when you click on the words typed in the first input. 
 The task is to find the right translation. It doesn't work vice versa yet.
-- Adaptivity is done with media queries (/css/step2media.css and /css/gameMedia.css are outside file added to the key file in head)
+- Adaptivity is done with media queries (/css/step2media.css and /css/gameMedia.css are outside files added to the key file in head)
 - Forms are required and done with inputs, also have placeholders inside (/css/form.css is an outside file added to the key file in head)
 - Forms with choices for location selection
