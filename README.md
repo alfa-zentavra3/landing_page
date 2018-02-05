@@ -24,7 +24,7 @@ Design and Utilities:
 - Font Awesome for the back-to-top button
 - Automatic slider for images done with javascript
 - Zooming the images with the library Lightbox
-- Simple memory game made with jQuery (css and js are outside files added to the key file in head and body):
+- Simple memory word game made with jQuery (css and js are outside files added to the key file in head and body):
 two inputs allow to type words and put them into the box on the right by pressing the button Done.
 Button Shuffle changes the position of the words in the box.
 By clicking on the right word and it's translation the cards change background into green.
